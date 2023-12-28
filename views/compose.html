@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Compose</title>
+</head>
+<body>
+  <header>
+    <h1>Blog Ponder</h1>
+  </header>
+
+  <main>
+    <h2>Compose a New Blog</h2>
+
+    <form action="/compose" method="post">
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" required>
+
+      <label for="content">Content:</label>
+      <textarea id="content" name="content" rows="4" required></textarea>
+
+      <button type="submit">Publish</button>
+    </form>
+
+    <div class="home-link">
+      <a href="/">← Back to Home</a>
+    </div>
+  </main>
+</body>
+</html>
